@@ -37,6 +37,17 @@ add package to composer.json
 run update
 
     composer update
+    
+register bundle in your kernel class
+
+    public function registerBundles()
+    {
+        $bundles = array(
+            //...
+            new Devhelp\Bundle\MixedMappingDriverDemoBundle\DevhelpMixedMappingDriverDemoBundle(),
+            //...
+        );
+    }
 
 Usage
 ------------
