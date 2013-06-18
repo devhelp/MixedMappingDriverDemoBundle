@@ -1,0 +1,22 @@
+{
+    "name": "devhelp/mixed-mapping-driver-demo-bundle",
+    "type": "symfony-bundle",
+    "homepage": "http://devhelp.pl",
+    "keywords": ["doctrine", "mapping", "symfony"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paweł Barański",
+            "email": "pawel.baranski1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Devhelp\\Bundle\\MixedMappingDriverDemoBundle": "" }
+    },
+    "target-dir": "Devhelp/Bundle/MixedMappingDriverDemoBundle",
+    "require": {
+        "php": ">=5.3",
+        "doctrine/orm": "*",
+        "doctrine/doctrine-bundle": "*",
+    }
+}

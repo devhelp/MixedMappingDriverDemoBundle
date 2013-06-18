@@ -1,0 +1,11 @@
+Devhelp\Bundle\MixedMappingDriverDemoBundle\Entity\DemoEntity:
+  type: entity
+  table: demo_entities_yaml
+  id:
+    id:
+      type: integer
+      generator:
+        strategy: AUTO
+  fields:
+    columnThree: 
+      column: column_three
